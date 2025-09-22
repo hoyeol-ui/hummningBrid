@@ -1,0 +1,19 @@
+# Core
+torch>=2.1.0
+torchaudio>=2.1.0
+
+# AudioCraft (MusicGen melody 지원)
+audiocraft @ git+https://github.com/facebookresearch/audiocraft.git
+
+# Audio I/O & utils
+soundfile
+librosa
+pydub
+pedalboard
+sounddevice
+streamlit
+
+# (Optional) 허밍->MIDI 루트 유지 시
+basic-pitch
+pretty_midi
+mido

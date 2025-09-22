@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual Environment
+.venv/
+env/
+venv/
+
+# Streamlit
+.streamlit/
+**/.streamlit/
+
+# Data
+data/raw/
+data/generated/
+*.wav
+*.mp3
+
+# OS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
