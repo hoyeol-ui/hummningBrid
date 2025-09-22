@@ -2,7 +2,7 @@
 import streamlit as st
 from pathlib import Path
 from src.record import record_humming
-from src.generate import generate_music
+from src.generate import generate_music, generate_music_midi
 
 DATA_DIR = Path("data")
 RAW_DIR = DATA_DIR / "raw"
@@ -57,7 +57,7 @@ if st.button("🚀 생성 시작"):
         st.error("허밍 파일이 필요합니다!")
     else:
         with st.spinner("생성 중… (첫 실행은 모델 다운로드로 시간이 좀 걸려요)"):
-            out = generate_music(f, out_name="melody_generated.wav", prompt=prompt, duration_sec=dur)
+            out = generate_music_midi(f, out_name="melody_generated.wav", prompt=prompt, duration_sec=dur)
         st.session_state["last_output"] = out
         st.success("완료!")
         st.audio(out)
