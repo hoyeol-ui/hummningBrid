@@ -30,23 +30,6 @@ The goal of the project is to let anyone create short music pieces (≤ 3 minute
 
 ---
 
-## 📂 Project Structure
-
-hummingBrid/
-│
-├── app.py              # Main Streamlit app
-├── requirements.txt    # Dependencies
-├── src/
-│   ├── generate.py     # Humming → Music generation
-│   ├── record.py       # Recording module
-│   ├── mix.py          # Mixing utilities (WIP)
-│   └── stitch.py       # Stitching utilities (WIP)
-└── data/
-├── raw/            # Recorded humming
-└── generated/      # Generated outputs
-
----
-
 ## ⚙️ Installation
 ```bash
 git clone https://github.com/hoyeol-ui/hummingBrid.git
