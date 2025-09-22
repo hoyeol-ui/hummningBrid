@@ -1,8 +1,3 @@
-좋습니다 👍 그러면 지금까지 진행한 프로젝트 개요, 구조, 특징을 정리해서 영어 README.md 템플릿을 만들어드릴게요.
-
-⸻
-
-📄 README.md (Draft)
 
 # HummingBrid 🎵
 
